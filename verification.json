@@ -1,0 +1,12 @@
+{
+  "product": "reloop",
+  "checkedAt": "2026-10-27T09:58:53.203894+00:00",
+  "checkExit": 0,
+  "testCount": 6,
+  "typecheckPassed": true,
+  "productionBuildPassed": true,
+  "liveIntegrationVerified": false,
+  "cloudDeployed": false,
+  "submitted": false,
+  "elapsedSeconds": 18
+}

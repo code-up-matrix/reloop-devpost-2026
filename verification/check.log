@@ -1,0 +1,61 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> reloop-devpost-2026@1.0.0 check
+> npm run typecheck && npm test && npm run build
+
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> reloop-devpost-2026@1.0.0 typecheck
+> tsc --noEmit -p tsconfig.json
+
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> reloop-devpost-2026@1.0.0 test
+> vitest run
+
+
+ RUN  v5.0.5 /tmp/devpost-event-repositories/reloop
+
+
+ Test Files  2 passed (2)
+      Tests  6 passed (6)
+   Start at  10:58:38
+   Duration  2.05s (tests 84%, import 8%, transform 8%)
+
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> reloop-devpost-2026@1.0.0 build
+> next build --webpack
+
+▲ Next.js 16.3.8 (webpack)
+✓ Running next.config.ts took 32ms
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 5.4s
+  Running TypeScript ...
+  Finished TypeScript in 2.6s ...
+  Collecting page data using 8 workers ...
+  Generating static pages using 8 workers (0/11) ...
+  Generating static pages using 8 workers (2/11) 
+  Generating static pages using 8 workers (5/11) 
+  Generating static pages using 8 workers (8/11) 
+✓ Generating static pages using 8 workers (11/11) in 258ms
+  Finalizing page optimization ...
+  Collecting build traces ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ○ /access
+├ ƒ /api/health
+├ ƒ /api/internal/cleanup
+├ ƒ /api/lab/runs
+├ ƒ /api/reloop
+├ ƒ /api/reloop/claims
+├ ƒ /api/session
+└ ○ /history
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+
