@@ -1,0 +1,27 @@
+{
+  "projectId": "prj_gcSQ2r7GGh8iOgrXRawHNacUx6Kj",
+  "teamId": "team_64IDAvx3sgtTRCQpQavfF3cG",
+  "deploymentId": "dpl_Fy5r53aiZNVWrR7w2uzbMMyj7s5n",
+  "deploymentCommit": "2070187c297e508860bd6122a3a993bcbe8425ea",
+  "url": "https://reloop-devpost-2026.vercel.app",
+  "target": "production",
+  "hostingReady": true,
+  "productionReady": false,
+  "databaseProvisioned": false,
+  "liveIntegrationVerified": false,
+  "submitted": false,
+  "health": {
+    "url": "https://reloop-devpost-2026.vercel.app/api/health",
+    "status": 200,
+    "body": {
+      "application": "ReLoop",
+      "status": "configuration_required",
+      "missing": [
+        "DATABASE_URL"
+      ],
+      "version": "1.0.0"
+    },
+    "checkedAt": "2026-10-27T15:04:17.635Z"
+  },
+  "lastUpdated": "2026-10-27T15:10:28.774Z"
+}

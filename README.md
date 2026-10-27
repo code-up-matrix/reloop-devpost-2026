@@ -22,7 +22,7 @@ This is controlled hackathon workspace access. Consumer-account recovery, genera
 
 Overview says students only. Rethinking Waste: impact 35%, technology 25%, feasibility 20%, demonstration 20%. Public repo and two-to-three-minute video.
 
-Source is prepared and independently verified as recorded in verification.json when present. Cloud deployment, live sponsor proof, video and final submission are still pending. Repository: https://github.com/code-up-matrix/reloop-devpost-2026.
+Source is prepared and independently verified as recorded in verification.json when present. Vercel hosting is deployed at https://reloop-devpost-2026.vercel.app. Database provisioning, any required sponsor proof, video and final submission are still pending. Hosting does not establish production readiness. Repository: https://github.com/code-up-matrix/reloop-devpost-2026.
 
 ## Attribution
 
