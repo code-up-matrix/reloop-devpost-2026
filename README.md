@@ -22,8 +22,12 @@ This is controlled hackathon workspace access. Consumer-account recovery, genera
 
 Overview says students only. Rethinking Waste: impact 35%, technology 25%, feasibility 20%, demonstration 20%. Public repo and two-to-three-minute video.
 
-Source is prepared and independently verified as recorded in verification.json when present. Vercel hosting is deployed at https://reloop-devpost-2026.vercel.app. Database provisioning, any required sponsor proof, video and final submission are still pending. Hosting does not establish production readiness. Repository: https://github.com/code-up-matrix/reloop-devpost-2026.
+Source is prepared and independently verified as recorded in verification.json when present. Vercel hosting is deployed at https://reloop-devpost-2026.vercel.app. Dedicated Neon storage is provisioned and live-tested. Sponsor proof where required, eligibility checks, video and final submission remain pending. Hosting does not establish production readiness. Repository: https://github.com/code-up-matrix/reloop-devpost-2026.
 
 ## Attribution
 
 MIT-licensed. Product implementation was prepared with ChatGPT/Codex assistance on 27 October 2026. Shared foundation: code-up-matrix/axios-fx-compliance-agent, commit 4093cf1. The authored product and shared infrastructure must be disclosed accurately in the event submission.
+
+## Live database verification
+
+31 live assertions passed on 27 October 2026: protected workspace login, database history isolation, expired-record cleanup and logout. The product's real API/storage flow also passed, including ownership checks. See [backend evidence](docs/BACKEND-VERIFICATION.md) and [machine-readable results](live-backend-verification.json). Database credentials are stored in Vercel's sensitive environment variables.
